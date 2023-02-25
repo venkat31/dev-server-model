@@ -1,0 +1,8 @@
+#local files 
+.terraform/*
+
+# contains sensitive information.
+*.tfvars
+#state files are generated after every apply command 
+*.tfstate
+*.tfstate.*
